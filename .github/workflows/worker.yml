@@ -1,8 +1,8 @@
 name: Tugas
 
 on:
-  push:
-    branch: [develop-testing]
+  pull_request:
+    branches: [develop-testing]
 
 jobs:
   build:

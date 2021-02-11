@@ -1,7 +1,7 @@
 name: Tugas
 
 on:
-  pull_request:
+  push:
     branch: [develop-testing]
 
 jobs:
